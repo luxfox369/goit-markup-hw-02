@@ -1,1 +1,17 @@
-/*  */
+/* палітра проекта */
+.portfolio-img{
+    width: 370px;;
+    height: 404px;
+    border: 1px;
+    border-color: #EEEEEE;
+}
+.visually-hidden {
+    position: fixed;
+    transform: scale(0);
+}
+.list{
+    list-style: none;
+}
+.link{
+    text-decoration: none;
+}
