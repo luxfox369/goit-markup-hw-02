@@ -64,13 +64,13 @@ body {
 
 /* logo */
 .logo {
-    font family:'Raleway', sans-serif;/*var(--second-font-family--);*/
-    font style:700;
-    font size:26px;
-    line height:calc(31/26);
+    font-family:'Raleway', sans-serif;/*var(--second-font-family--);*/
+    font-style:700;
+    font-size:26px;
+    line-height:calc(31/26);
     align:left;
-    vertical align:top;
-    letter spacing:3%;
+    vertical-align:top;
+    letter-spacing:3%;
     border: 1px;
     border-color: #000;
 }
@@ -83,19 +83,25 @@ body {
 /* Навігація по сторінках сайта */
 .header-nav-item,
 .header-contact-item {
-    font style:500;
-    font size:14px;
-    line height:calc(16/14);
+    font-size:500;
+    font-size:14px;
+    line-height:calc(16/14);
     color:var(--title-color--);
 }
 .header-nav-link:focus,
 .header-nav-link:hover {
     color:var(--accent-color--);
 }
+.header-nav-link:current{
+    /* text-decoration: underline; */
+    text-underline-offset: var(--accent-color--);
+    color:var(--accent-color--); 
+}
 /* мейл і телефон */
 .header-contact-link {
     color:var(--text-color--);
 }
+
 .header-contact-link:focus,
 .header-contact-link:hover {
     color:var(--accent-color--);    
@@ -118,6 +124,7 @@ background-color:var(--second-bg-color--);
     letter-spacing: 0.06em;
     background-color:var(--accent-color--);
     color:var(--prime-bg-color);
+    cursor:pointer;
 }
 /* секція Особливості */
 /* h2 схований */
@@ -158,13 +165,16 @@ background-color:var(--second-bg-color--);
     width: 130px;
     height: 38px;
     border:none;
+    cursor:pointer;
     
 }
+.menu-button:active,
 .menu-button:focus,
 .menu-button:hover{
     color:var(--prime-bg-color);
     background-color:var(--accent-color--);  
 }
+
 /* projects */
 /* h2 - title-second схований */
 .project-img{
