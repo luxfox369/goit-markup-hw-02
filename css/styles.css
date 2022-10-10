@@ -177,9 +177,10 @@ body {
 
 
 /* стилі portfolio */
-/* h1 -title-first схований */
+/* h1 Портфоліо -title-first схований */
+/* h2 Фільтр портфоліо-title-second схований */
 /* меню portfolio */
-.menu-button {
+.filter-button {
     font-weight: 500;
     font-size: 16px;
     line-height:calc(26/16);
@@ -188,21 +189,19 @@ body {
     color:var(--text-color--);
     background: #F5F4FA;
     border-radius: 4px;
-    width: 130px;
-    height: 38px;
     border:none;
     cursor:pointer;
-    
-}
-.menu-button:active,
-.menu-button:focus,
-.menu-button:hover{
+    }
+
+.filter-button:active,
+.filter-button:focus,
+.filter-button:hover{
     color:var(--prime-bg-color);
     background-color:var(--accent-color--);  
 }
 
 /* projects */
-/* h2 - title-second схований */
+/* h2 - title-econd схований */
 .project-img{
     width: 370px;;
     height: 294px;
@@ -217,7 +216,10 @@ body {
     letter-spacing: 0.06em;
     color:var(--title-ccolor--);
 }
-.type-project{
+.project-item {
+    text-align:center;
+}
+.project-type{
     font-size: 16px;
     line-height:calc(30/16);
     letter-spacing: 0.03em;
@@ -242,8 +244,8 @@ color: rgba(255,255,255,0.6);
     color:var(--prime-bg-color--);
 }
 /* реакція на наведення мишки чи клавіатури на лого */
-.logo-block:focus,
-.logo-block:hover{
+.logo:focus,
+.logo:hover{
    color:var(--accent-color--);
 }
 /* реакція на наведення мишки або клавіатури на любий лінк футера */
