@@ -37,7 +37,9 @@
               <a class="header-nav link" href="./index.html">Студія</a>
             </li>
             <li class="header-nav-item">
-              <a class="header-nav link current" href="./portfolio.html">Портфоліо</a>
+              <a class="header-nav link current" href="./portfolio.html"
+                >Портфоліо</a
+              >
             </li>
             <li class="header-nav-item">
               <a class="header-nav link" href="#contacts">Контакти</a>
@@ -64,146 +66,136 @@
       <!-- content-portfolio-section-->
       <section class="portfolio-section">
         <h1 class="title-first content-portfolio visually-hidden">Портфоліо</h1>
-        <!-- menu-portfolio-section -->
-        <section class="filter-project-section">
-          <h2 class="title-second filter-project-title visually-hidden">
-            Menu портфоліо
-          </h2>
-          <ul class="filter-list list">
-            <li class="filter-item-btn btn">
-              <button class="filter-button btn all">Усі</button>
-            </li>
-            <li class="filter-item-btn">
-              <button class="filter-button btn web">Веб-сайти</button>
-            </li>
-            <li class="filter-item-btn">
-              <button class="filter-button btn app">Додатки</button>
-            </li>
-            <li class="filter-item-btn">
-              <button class="filter-button btn design">Дизайн</button>
-            </li>
-            <li class="filter-item-btn">
-              <button class="filter-button btn marketing">Маркетинг</button>
-            </li>
-          </ul>
-        </section>
-        <!--project-section  -->
-        <section class="project-section">
-          <h2 class="title-second project-title visually-hidden">
-            Portfolio-projects
-          </h2>
-          <ul class="portfolio-list list">
-            <!--project1 11 Веб-сайт Технокряк  -->
-            <li class="project-item">
-              <a class="project-link link" href="#">
-                <img
-                  class="project-img"
-                  src="./images/project1.jpg"
-                  alt="Проект Веб-сайту Технокряк"
-                />
-                <h3 class="title-project">Технокряк</h3>
-                <p class="project-type">Веб-сайт</p>
-              </a>
-            </li>
-            <!--project2 12 Дизайн Постер New Orlean vs Golden Star -->
-            <li class="project-item">
-              <a class="project-link link" href="#">
-                <img
-                  class="project-img"
-                  src="./images/project2.jpg"
-                  alt="Проект Дизайну Постер New Orlean vs Golden"
-                />
-                <h3 class="title-project">Постер New Orlean vs Golden Star</h3>
-                <p class="project-type">Дизайн</p>
-              </a>
-            </li>
-            <!--project3 13 Додаток Ресторан Seafood -->
-            <li class="project-item">
-              <a class="project-link link" href="#">
-                <img
-                  class="project-img"
-                  src="./images/project3.jpg"
-                  alt="Проект Додаток Ресторан Seafood"
-                />
-                <h3 class="title-project">Ресторан Seafood</h3>
-                <p class="project-type">Додаток</p>
-              </a>
-            </li>
-            <!--project4 21 Маркетинг Проєкт Prime  -->
-            <li class="project-item">
-              <a class="project-link link" href="#">
-                <img
-                  class="project-img"
-                  src="./images/project4.jpg"
-                  alt="Проект Маркетинг Проєкт Prime"
-                />
-                <h3 class="project-typet">Проєкт Prime</h3>
-                <p class="type-project">Маркетинг</p>
-              </a>
-            </li>
-            <!--project5 22 Додаток Проєкт Boxes -->
-            <li class="project-item">
-              <a class="project-link link" href="#">
-                <img
-                  class="project-img"
-                  src="./images/project5.jpg"
-                  alt="Проект Додаток Проєкт Boxes"
-                />
-                <h3 class="title-project">Проєкт Boxes</h3>
-                <p class="project-type">Додаток</p>
-              </a>
-            </li>
-            <!--project6 23 Веб-сайт Inspiration has no Borders -->
-            <li class="project-item">
-              <a class="project-link link" href="#">
-                <img
-                  class="project-img"
-                  src="./images/project6.jpg"
-                  alt="Проект Веб-сайта Inspiration has no Borders"
-                />
+        <!-- list of buttons=filter portfolio  -->
+        <ul class="filter-list list">
+          <li class="filter-item-btn btn">
+            <button class="filter-button btn all">Усі</button>
+          </li>          
+          <li class="filter-item-btn">
+            <button class="filter-button btn web">Веб-сайти</button>
+          </li>
+          <li class="filter-item-btn">
+            <button class="filter-button btn app">Додатки</button>
+          </li>
+          <li class="filter-item-btn">
+            <button class="filter-button btn design">Дизайн</button>
+          </li>
+          <li class="filter-item-btn">
+            <button class="filter-button btn marketing">Маркетинг</button>
+          </li>
+        </ul>
+        <!--  list of project cards  -->
+        <ul class="projects-list list">
+          <!--project1 11 Веб-сайт Технокряк  -->
+          <li class="project-item">
+            <a class="project-link link" href="#">
+              <img
+                class="project-img"
+                src="./images/project1.jpg"
+                alt="Проект Веб-сайту Технокряк"
+              />
+              <h2 class="title-project">Технокряк</h2>
+              <p class="project-type">Веб-сайт</p>
+            </a>
+          </li>
+          <!--project2 12 Дизайн Постер New Orlean vs Golden Star -->
+          <li class="project-item">
+            <a class="project-link link" href="#">
+              <img
+                class="project-img"
+                src="./images/project2.jpg"
+                alt="Проект Дизайну Постер New Orlean vs Golden"
+              />
+              <h2 class="title-project">Постер New Orlean vs Golden Star</h2>
+              <p class="project-type">Дизайн</p>
+            </a>
+          </li>
+          <!--project3 13 Додаток Ресторан Seafood -->
+          <li class="project-item">
+            <a class="project-link link" href="#">
+              <img
+                class="project-img"
+                src="./images/project3.jpg"
+                alt="Проект Додаток Ресторан Seafood"
+              />
+              <h2 class="title-project">Ресторан Seafood</h2>
+              <p class="project-type">Додаток</p>
+            </a>
+          </li>
+          <!--project4 21 Маркетинг Проєкт Prime  -->
+          <li class="project-item">
+            <a class="project-link link" href="#">
+              <img
+                class="project-img"
+                src="./images/project4.jpg"
+                alt="Проект Маркетинг Проєкт Prime"
+              />
+              <h2 class="title-project">Проєкт Prime</h2>
+              <p class="project-type">Маркетинг</p>
+            </a>
+          </li>
+          <!--project5 22 Додаток Проєкт Boxes -->
+          <li class="project-item">
+            <a class="project-link link" href="#">
+              <img
+                class="project-img"
+                src="./images/project5.jpg"
+                alt="Проект Додаток Проєкт Boxes"
+              />
+              <h2 class="title-project">Проєкт Boxes</h2>
+              <p class="project-type">Додаток</p>
+            </a>
+          </li>
+          <!--project6 23 Веб-сайт Inspiration has no Borders -->
+          <li class="project-item">
+            <a class="project-link link" href="#">
+              <img
+                class="project-img"
+                src="./images/project6.jpg"
+                alt="Проект Веб-сайта Inspiration has no Borders"
+              />
 
-                <h3 class="title-project">Inspiration has no Borders</h3>
-                <p class="project-type">Веб-сайт</p>
-              </a>
-            </li>
-            <!--project7 31 Дизайн Видання Limited Edition -->
-            <li class="project-item">
-              <a class="project-link link" href="#">
-                <img
-                  class="project-img"
-                  src="./images/project7.jpg"
-                  alt="Проект Дизайну Видання Limited Edition"
-                />
-                <h3 class="title-project">Видання Limited Edition</h3>
-                <p class="project-type">Дизайн</p>
-              </a>
-            </li>
-            <!--project8 32 Мркетинг Проєкт LAB -->
-            <li class="project-item">
-              <a class="project-link link" href="#">
-                <img
-                  class="project-img"
-                  src="./images/project8.jpg"
-                  alt="Проект Маркетингу Проєкт LAB"
-                />
-                <h3 class="title-project">Проєкт LAB</h3>
-                <p class="project-type">Маркетинг</p>
-              </a>
-            </li>
-            <!--project9 33 Додаток Growing Business -->
-            <li class="project-item">
-              <a class="project-link link" href="#">
-                <img
-                  class="project-img"
-                  src="./images/project9.jpg"
-                  alt="Проект Додаток Growing Business"
-                />
-                <h3 class="title-project">Growing Business</h3>
-                <p class="project-type">Додаток</p>
-              </a>
-            </li>
-          </ul>
-        </section>
+              <h2 class="title-project">Inspiration has no Borders</h2>
+              <p class="project-type">Веб-сайт</p>
+            </a>
+          </li>
+          <!--project7 31 Дизайн Видання Limited Edition -->
+          <li class="project-item">
+            <a class="project-link link" href="#">
+              <img
+                class="project-img"
+                src="./images/project7.jpg"
+                alt="Проект Дизайну Видання Limited Edition"
+              />
+              <h2 class="title-project">Видання Limited Edition</h2>
+              <p class="project-type">Дизайн</p>
+            </a>
+          </li>
+          <!--project8 32 Мркетинг Проєкт LAB -->
+          <li class="project-item">
+            <a class="project-link link" href="#">
+              <img
+                class="project-img"
+                src="./images/project8.jpg"
+                alt="Проект Маркетингу Проєкт LAB"
+              />
+              <h2 class="title-project">Проєкт LAB</h2>
+              <p class="project-type">Маркетинг</p>
+            </a>
+          </li>
+          <!--project9 33 Додаток Growing Business -->
+          <li class="project-item">
+            <a class="project-link link" href="#">
+              <img
+                class="project-img"
+                src="./images/project9.jpg"
+                alt="Проект Додаток Growing Business"
+              />
+              <h2 class="title-project">Growing Business</h2>
+              <p class="project-type">Додаток</p>
+            </a>
+          </li>
+        </ul>
       </section>
     </main>
     <footer class="footer-section">
