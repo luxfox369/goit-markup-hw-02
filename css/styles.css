@@ -17,19 +17,27 @@ body {
   color: var(--text-color--);
   background-color: var(--prime-bg-color--);
 }
+/* скриває елемент */
 .visually-hidden {
   position: fixed;
   transform: scale(0);
 }
+/* забирає маркер спимку */
 .list {
   list-style: none;
 }
+/* забирає підкреслення  */
 .link {
   text-decoration: none;
 }
+/* забирає рамку */
  .btn{
   border:none;
 } 
+/* наразі не працює */
+.current-link:active{
+    text-decoration:underline;
+}
 /* h1 */
 .title-first {
   font-weight: 900;
@@ -99,11 +107,7 @@ body {
   color: var(--accent-color--);
 }
 /* підсвітка посилання текучої сторінки */
-.header-nav-link.link:current {
-  text-decoration-line: underline;
-  text-decoration-style: solid;
-  color: var(--accent-color--);
-}
+
 
 /* стилі index */
 /* секція hero */
@@ -177,7 +181,7 @@ body {
 /* стилі portfolio */
 /* h1 Портфоліо -title-first схований */
 /* h2 Фільтр портфоліо-title-second схований */
-/* меню portfolio */
+/* кнопки фільтра проектів */
 .filter-button {
   font-weight: 500;
   font-size: 16px;
@@ -190,7 +194,7 @@ body {
   border: none;
   cursor: pointer;
 }
-
+/* кнопки фільтра проектів при hover */
 .filter-button:focus,
 .filter-button:hover {
   color: var(--prime-bg-color--);
@@ -228,8 +232,9 @@ body {
 }
 /* спільний шрифт для блоку address */
 .address-section {
+  font-style:normal;  
   font-size: 14px;
-  line-height: calc(24 / 14);
+  line-height: calc(24/14);
   letter-spacing: 0.03em;
 }
 .footer-link {
