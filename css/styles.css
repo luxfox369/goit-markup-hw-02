@@ -26,18 +26,15 @@ body {
 .list {
   list-style: none;
 }
-/* забирає підкреслення  */
-.link {
-  text-decoration: none;
-}
 /* забирає рамку */
  .btn{
   border:none;
 } 
-/* наразі не працює */
-.current-link:active{
-    text-decoration:underline;
+/* забирає підкреслення  */
+.link {
+  text-decoration: none;
 }
+
 /* h1 */
 .title-first {
   font-weight: 900;
@@ -92,22 +89,27 @@ body {
 }
 
 /* вигляд мейл і телефон */
-.header-contact-link {
+.header-contact {
   color: var(--text-color--);
 }
-/* вигляд посилань */
-.header-nav-link {
+/* вигляд елементів списка посилань навігації */
+.header-nav {
   color:var(--title-ccolor--);
 }
-/* реакція на наведення */
-.header-nav-link:focus,
-.header-nav-link:hover,
-.header-contact-link:focus,
-.header-contact-link:hover {
+/* реакція на наведення на елемент списка посилання  */
+.header-nav:focus,
+.header-nav:hover,
+.header-contact:focus,
+.header-contact:hover {
   color: var(--accent-color--);
 }
-/* підсвітка посилання текучої сторінки */
-
+/* підсвітка посилання активної сторінки */
+/* підкреслює активований лінк навігації */
+.current{
+    color: var(--accent-color--);
+    text-decoration-line: underline;
+    text-decoration-color: var(--accent-color--);
+   }
 
 /* стилі index */
 /* секція hero */
