@@ -22,46 +22,40 @@
   </head>
   <body>
     <!-- шапка сайта з навігацією-->
-    <header>
-      <div class="header-section">
-        <a class="link" href="./index.html">
-          <div class="logo">
-            <span class="logo-web">Web</span
-            ><span class="logo-studio">Studio</span>
-          </div>
-        </a>
-        <!-- Навігація по сторінках сайта -->
-        <nav>
-          <ul class="header-nav list">
-            <li class="header-nav-item">
-              <a class="header-nav link" href="./index.html">Студія</a>
-            </li>
-            <li class="header-nav-item">
-              <a class="header-nav link current" href="./portfolio.html"
-                >Портфоліо</a
-              >
-            </li>
-            <li class="header-nav-item">
-              <a class="header-nav link" href="#contacts">Контакти</a>
-            </li>
-          </ul>
-        </nav>
-        <!-- Лінки контактів -->
-        <ul class="header-contact list">
-          <li class="header-contact-item">
-            <a class="header-contact link" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
+    <header class="header-section">
+      <a class="link" href="./index.html">
+        <span class="logo web">Web</span>
+        <span class="logo studio">Studio</span>
+      </a>
+      <!-- Навігація по сторінках сайта -->
+      <nav>
+        <ul class="header-nav list">
+          <li class="header-nav-item">
+            <a class="header-nav link " href="./index.html">Студія</a>
           </li>
-          <li class="header-contact-item">
-            <a class="header-contact link" href="tel:+380961111111"
-              >+38 096 111 11 11</a
-            >
+          <li class="header-nav-item">
+            <a class="header-nav link current" href="./portfolio.html">Портфоліо</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav link" href="#contacts">Контакти</a>
           </li>
         </ul>
-      </div>
+      </nav>
+      <!-- Лінки контактів -->
+      <ul class="header-contact list">
+        <li class="header-contact-item">
+          <a class="header-contact link" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li class="header-contact-item">
+          <a class="header-contact link" href="tel:+380961111111"
+            >+38 096 111 11 11</a
+          >
+        </li>
+      </ul>
     </header>
-    <!-- унікальний контент сторінки -->
+    <!--контент сторінки portfolio-->
     <main>
       <!-- content-portfolio-section-->
       <section class="portfolio-section">
@@ -69,19 +63,19 @@
         <!-- list of buttons=filter portfolio  -->
         <ul class="filter-list list">
           <li class="filter-item-btn btn">
-            <button class="filter-button btn all">Усі</button>
-          </li>          
-          <li class="filter-item-btn">
-            <button class="filter-button btn web">Веб-сайти</button>
+            <button type="button" class="filter-button btn all">Усі</button>
           </li>
           <li class="filter-item-btn">
-            <button class="filter-button btn app">Додатки</button>
+            <button type="button" class="filter-button btn web">Веб-сайти</button>
           </li>
           <li class="filter-item-btn">
-            <button class="filter-button btn design">Дизайн</button>
+            <button type="button" class="filter-button btn app">Додатки</button>
           </li>
           <li class="filter-item-btn">
-            <button class="filter-button btn marketing">Маркетинг</button>
+            <button type="button" class="filter-button btn design">Дизайн</button>
+          </li>
+          <li class="filter-item-btn">
+            <button type="button" class="filter-button btn marketing">Маркетинг</button>
           </li>
         </ul>
         <!--  list of project cards  -->
@@ -198,36 +192,34 @@
         </ul>
       </section>
     </main>
-    <footer class="footer-section">
-      <div id="contacts" class="footer-info">
-        <a class="logo link" href="./index.html"
-          ><span class="logo-web">Web</span
-          ><span class="footer-section logo-studio">Studio</span></a
-        >
-        <address class="address-section">
-          <ul class="footer-list list">
-            <li class="footer-list-item">
-              <a
-                class="footer-link-map link"
-                href="https://goo.gl/maps/kqAVkC1o9cEqBrma6"
-                target="_blank"
-                rel="noopener noreferrer nofollow"
-                >м. Київ, пр-т Лесі Українки, 26</a
-              >
-            </li>
-            <li class="footer-list-item">
-              <a class="footer-link link" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
-            </li>
-            <li class="footer-list-item">
-              <a class="footer-link link" href="tel:+380961111111"
-                >+38 096 111 11 11</a
-              >
-            </li>
-          </ul>
-        </address>
-      </div>
+    <footer id="contacts" class="footer-section">
+      <a class="logo link" href="./index.html"
+        ><span class="logo web">Web</span
+        ><span class="logo studio">Studio</span>
+      </a>
+      <address class="address-section">
+        <ul class="footer-list list">
+          <li class="footer-list-item">
+            <a
+              class="footer-link-map link"
+              href="https://goo.gl/maps/kqAVkC1o9cEqBrma6"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              >м. Київ, пр-т Лесі Українки, 26</a
+            >
+          </li>
+          <li class="footer-list-item">
+            <a class="footer-link link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="footer-list-item">
+            <a class="footer-link link" href="tel:+380961111111"
+              >+38 096 111 11 11</a
+            >
+          </li>
+        </ul>
+      </address>
     </footer>
   </body>
 </html>

@@ -86,10 +86,10 @@ body {
   line-height: calc(31 / 26);
   letter-spacing: 3%;
 }
-.logo-web {
+.logo.web {
   color: var(--accent-color--);
 }
-.logo-studio {
+.logo.studio {
   color: #000;
 }
 
@@ -112,23 +112,19 @@ body {
 /* підкреслює активований лінк навігації */
 .current{
     color: var(--accent-color--);
-    text-decoration-line: underline;
-    text-decoration-color: var(--accent-color--);
-   }
+}
 
 /* стилі index */
 /* секція hero */
 /* hero - title-first */
 .hero-section {
-/* width: 1600px;
-    height: 600px;
-    left: 0px;
-    top: 80px; */
-} 
-.div-hero {
     color: var(--prime-bg-color--); /*білий*шрифт */
     background-color: var(--second-bg-color--); /*темн осірий фон*/
     align-items:center;
+    /* width: 1600px;
+    height: 600px;
+    left: 0px;
+    top: 80px; */
  }
  
 .hero-button {
@@ -146,7 +142,6 @@ body {
   }
 .hero-button:focus,
 .hero-button:hover {
-    box-shadow:none;
     border-radius:0px; 
   }
 /* секція Особливості */
@@ -248,7 +243,7 @@ body {
   background-color: var(--second-bg-color--);
 }
 /* спільний шрифт для блоку address */
-.footer-section .logo-studio{
+.footer-section .logo.studio{
     color:var(--prime-bg-color--);
 }
 .address-section {
